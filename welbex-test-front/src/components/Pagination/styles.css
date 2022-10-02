@@ -1,0 +1,28 @@
+.page_container {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.page_next,
+.page_prev {
+  cursor: pointer;
+}
+
+.page_next svg,
+.page_prev svg {
+  width: 30px;
+  height: 30px;
+}
+
+.page_next {
+  margin-left: 10px;
+}
+
+.page_prev {
+  margin-right: 10px;
+}
+
+.page_container {
+  user-select: none;
+}

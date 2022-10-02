@@ -1,0 +1,5 @@
+welbex-test-back/.env
+welbex-test-front/.env
+
+welbex-test-back/node_modules
+welbex-test-front/node_modules

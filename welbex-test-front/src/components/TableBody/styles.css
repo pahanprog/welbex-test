@@ -1,0 +1,12 @@
+td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+tbody tr:nth-child(n) {
+  background-color: #eff0f0;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #fff;
+}

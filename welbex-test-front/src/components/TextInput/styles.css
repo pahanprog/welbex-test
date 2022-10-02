@@ -1,0 +1,22 @@
+input {
+  padding: 10px 40px 10px 10px;
+  border: 2px solid #eff0f0;
+  border-radius: 6px;
+  width: 150px;
+}
+
+input::placeholder {
+  color: rgb(138, 134, 134);
+}
+
+.input_container {
+  position: relative;
+}
+
+.input_error {
+  color: red;
+  position: absolute;
+  top: -20px;
+  right: 0;
+  font-size: 14px;
+}

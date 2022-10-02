@@ -1,0 +1,41 @@
+.select {
+  padding: 10px 40px 10px 10px;
+  border: 2px solid #eff0f0;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+}
+
+.select_placeholder {
+  color: rgb(138, 134, 134);
+}
+
+.options {
+  width: max-content;
+  border: 2px solid #eff0f0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #fff;
+}
+
+.options.closed {
+  display: none;
+}
+
+.options.open {
+  display: block;
+}
+
+.option {
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #eff0f0;
+}
